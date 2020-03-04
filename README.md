@@ -12,15 +12,15 @@
 ---------------------
 ![](https://i.imgur.com/9OsII7z.png)  
 ## 2、 分析工程AssetBundle包资源冗余情况，导出.md文件(MarkDown文件)  
-# ABRedundency_2003041937  
-资源名称 | 资源类型 | AB文件数量 | AB文件名
+# ABRedundency_2003042049  
+资源名称 | 资源类型 | 资源大小 | AB文件数量 | AB文件名
 ---|---|---|---
-Assets/Textures/AnimPic.jpg|UnityEngine.Texture2D|3|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/a.ab``E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/abc/c.ab``E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/b.ab`
-Assets/Textures/Pic1.png|UnityEngine.Sprite|1|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/222`
-Assets/Textures/Pic2.png|UnityEngine.Texture2D|1|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/222`
-Assets/Prefabs/AB资源测试冗余/Sphere.prefab|UnityEngine.GameObject|1|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/a.ab`
-Assets/Materials/Mat.mat|UnityEngine.Material|1|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/abc/c.ab`
-Assets/Prefabs/AB资源测试冗余/WallBall.prefab|UnityEngine.GameObject|1|`E:/UnityProject/UGUI优化无限滚动列表/Assets/StreamingAssets/b.ab`
+Assets/Graphics/Home/arcade.png|UnityEngine.Sprite|0 B|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/333`
+Assets/Graphics/Home/arcade_click.png|UnityEngine.Sprite|0 B|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/333`
+Assets/Graphics/Home/background.png|UnityEngine.Texture2D|0 B|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/333`
+Assets/Graphics/Play/JewelStar/4.png|UnityEngine.Texture2D|37.5 KB|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/33333444`
+Assets/Graphics/Play/JewelStar/2.png|UnityEngine.Texture2D|37.5 KB|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/33333444`
+Assets/Graphics/Play/Cell/cell_blue.png|UnityEngine.Texture2D|37.5 KB|1|`D:/下载文件/游戏蛮牛源码/一个消消乐工程/Assets/StreamingAssets/33333444`
 
 -----------------------
 # 使用说明
