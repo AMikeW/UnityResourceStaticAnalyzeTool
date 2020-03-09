@@ -33,3 +33,11 @@ Assets/Animations/CellChangeSprite.anim|UnityEngine.AnimationClip||1|`D:/下载�
 ## 选中分析资源窗口，弹出一个窗口，点击窗口的对应按钮会导出相应的Excel文件。
 ## 选中分析AB包资源冗余，直接导出.md文件到工程目录Assets/AnalyzeABResource.md
 ## 选中Canvas，Hierarchy面板会出现【分析Canvas】按钮，点击它即可刷新UI的合批情况，最好在运行时进行检查，因为图集等情况会在运行时才加载。
+
+## 2020年3月9日更新内容：
+### 1、支持Mask打断合批分析
+1、Mask自身合批，必须自身合批ID一样（与正常一样 不用管）
+2、Mask下子物体合批，也必须是子物体的合批ID一样（与正常一样 不用管）
+3、Mask裁剪图合批，必须满足Mask自身可合批，Mask下子物体之间不能合批的不能相交（如图片和字体，不同图集的图片）
+    关键3，检查Mask之间自身的合批ID，若不一样标注：Mask裁剪图不可合批，因Mask图不能合批
+                检查Mask下的子UI，检查所有子UI，存在不相同合批ID的UI相交时，标注：Mask裁剪图不可合批，因存在不可合批的子UI相交
